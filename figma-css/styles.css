@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root{
+    --theme-color: #FC569A;
+}
+
+body,
+html {
+    width: 100%;
+    height: 100%;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 60px;
+}
+
+.nav-buttons {
+    font-family: Roboto, Arial;
+    list-style-type: none;
+    display: inherit;
+    width: 100%;
+}
+
+.list {
+    margin: 5px;
+}
+
+.sign {
+    display: inherit;
+    float: right;
+    text-wrap: nowrap;
+    font-family: "Roboto", Arial;
+}
+
+.button {
+    background-color: var(--theme-color);
+    border: none;
+    border-radius: 6%;
+    font-family: "Roboto", Arial;
+    color: white;
+    padding: 0 20px;
+    height: 40px;
+    margin: 5px 10px;
+    font-weight: bold;
+    font-size: 13px;
+    letter-spacing: 1px;
+    margin-right: 45px;
+}
+
+.medi {
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 48px;
+    font-size: 30px;
+    line-height: 48px;
+
+}
+
+.main-title {
+    max-width: 495px;
+    width: 100%;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 72px;
+    line-height: 76px;
+    font-family: Ramaraja;
+    color: #1B0A42;
+    letter-spacing: 0.02em;
+}
+
+.main-info {
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #9A9A9A;
+    max-width: 583px;
+    width: 100%;
+
+
+}
+
+section {
+    display: inline-block;
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.dot {
+    color: var(--theme-color);
+    font-size: 30px;
+}
